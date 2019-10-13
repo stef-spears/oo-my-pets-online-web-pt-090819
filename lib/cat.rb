@@ -1,3 +1,9 @@
 class Cat
-  # code goes here
+  attr_accessor 
+  
+  def initialize(name, Owner)
+    @name = name 
+  end 
+  
+  
 end
