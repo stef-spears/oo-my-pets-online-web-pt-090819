@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_reader :name, :species
   
@@ -27,7 +29,7 @@ class Owner
   
   def my_cats
     Cat.all.select do |cat|
-      cat.owner == self 
+      binding.pry
     end
   end
   
