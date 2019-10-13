@@ -29,7 +29,7 @@ class Owner
   
   def my_cats
     Cat.all.select do |cat|
-      binding.pry
+
     end
   end
   
