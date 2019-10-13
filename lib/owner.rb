@@ -31,6 +31,7 @@ class Owner
     Cat.all.select do |cat|
 
     end
+    binding.pry 
   end
   
 end
